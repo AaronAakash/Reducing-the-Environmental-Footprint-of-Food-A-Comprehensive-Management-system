@@ -1,0 +1,159 @@
+<html>
+
+    <head>
+
+        <title>Welcome</title>
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+    </head>
+
+    <style>
+
+        body{
+
+            background-color: azure;
+
+        }
+
+    
+
+        
+
+        .about{
+
+            background-color: mediumslateblue;
+
+            width: 100%;
+
+            height: 30%;
+
+        }
+
+        .image img{
+
+            height: 100%;
+
+            width: 100%;
+
+        }
+
+        .details{
+
+            height: 45%;
+
+        
+
+            
+
+            
+
+        }
+
+        .image{
+
+            height: 130px;
+
+            width: 130px;
+
+            border-radius: 100%;
+
+            overflow: hidden;
+
+            margin: 25px auto;
+
+        }
+
+    </style>
+
+    <body>
+
+        <h1 style="text-align: center;font-family: Arial, Helvetica, sans-serif;">Profile</h1>
+
+        <p style="text-align: center;font-family: Arial, Helvetica, sans-serif;">I'm a creative graphic designer</p>
+
+        <div class="image">
+
+            <img src="Ashi.jpg"/>
+
+
+
+        </div>
+
+        <div class="about">
+
+            <h1 style="text-align: center;color: whitesmoke;font-family: Arial, Helvetica, sans-serif;">About me</h1>
+
+            
+
+            <p style="text-align: center;color: whitesmoke;font-family: Arial, Helvetica, sans-serif;">I am a creative graphics designer. i am an expert in the adobe cretive suit
+
+                and have worked with a varied myriad of clients. Connecting your ideas to
+
+                customer perception & all the digits dots in between...<br>
+
+                <p style="text-align: center;color: whitesmoke;">image from <a href="#" style="color: whitesmoke;">Freepik</a></p>
+
+            </p>
+
+
+
+        </div>
+
+        <div class="details">
+
+            <h1 style="text-align: center;font-family: Arial, Helvetica, sans-serif;">Details</h1>
+
+        
+
+            <h3 style="text-align: center;font-family: Arial, Helvetica, sans-serif;">Name:</h3>
+
+        
+
+            <p style="text-align: center;font-family: Arial, Helvetica, sans-serif;">Aakash M</p>
+
+        
+
+            <h3 style="text-align: center;font-family: Arial, Helvetica, sans-serif;">Age:</h3>
+
+        
+
+            <p style="text-align: center;font-family: Arial, Helvetica, sans-serif;">22 years</p>
+
+            
+
+            <h3 style="text-align: center;font-family: Arial, Helvetica, sans-serif;">Location:</h3>
+
+        
+
+            <p style="text-align: center;font-family: Arial, Helvetica, sans-serif;">'india, Asia, Earth</p>
+
+
+
+
+
+        </div>
+
+        <div class="footer">
+
+            <h1 style="text-align: center;">madhu</h1>
+
+        </div>
+
+        
+
+       
+
+    </body>
+
+</html>

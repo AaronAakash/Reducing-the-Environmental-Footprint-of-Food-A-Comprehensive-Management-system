@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html><head><title>Profile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a53a8629e3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style> 
+ nav{
+            height: 50px;
+            width: 100%;
+            background-color: none;
+            color: black;
+ }
+ul a{
+            color: black;
+            text-align: center;
+            float: right;
+            
+         
+            width: 50px;
+            margin-left: 30px;
+            margin-top: 0px;
+            margin-right: 1px;
+            border-radius: 2px;
+            font-size: 15px;
+  padding: 0px;
+  text-decoration: none;
+}
+.profile{
+    width: 99%;
+    height: 500px;
+    padding: 30px;
+    background-color: whitesmoke;
+    border-left: 20px;
+    border:  1px black;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+body{
+    background-color: gray;
+}
+img{
+    height: 300px;
+    width: 400px;
+    margin-left: 100px;
+}
+/* .column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 400px;
+    background-color: mediumorchid;
+    margin-right: 50px;
+} */
+.main{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1000px;
+    height: 400px;
+
+    
+}
+i{
+    padding: 10px;
+}
+.btn{
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+}
+.hello{
+    width: 99%;
+    height: 350px;
+    padding: 30px;
+    background-color: white;
+    border-left: 0px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row; 
+}
+
+</style>
+    <body>
+        <div class="profile">
+            <nav>
+                
+                <ul><a href="#" style="margin-left: 0px;">Home</ul></a>
+                <ul><a href="#">Menu</a></ul>
+                <ul><a href="#">contact</a></ul>
+                <ul><a href="#">skills</a></ul>
+                <ul><a href="#">Services</a></ul>
+                <ul><a href="#">About</a></ul>
+                <h1>Super Folio</h1>
+            </nav>
+            <div class="main">
+                <div>
+        <img src="man.jpg">
+    </div>
+        <div class="column">
+        <h3>HELLO!</h3>
+        <h2>I'm Aaron Aakash</h2>
+        <p>Web developer & mobile Application Developer</p>
+        <br><i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <br><br>
+        <button class="btn">Get the Touch -></button>
+    </div>
+    
+</div>
+
+    
+    </div>
+    <div class="hello">
+        <div class="text">
+        <h2>Hello! I'm Aaron Aakash.</h2>
+        <p>I am passionate about UVUX design i am skilled front end developer and 
+            master of graphic design tools such as [photoshop and sketch .
+            I am a quick learner and a team worker that gets job done .
+             I can easily capitalize on how hanging fruits
+              and quickly maximize timely deliverables for real time schemes </p>
+      <br><div class="add" style="width: 300px;">
+      <div class="textleft">
+        <p>Age:</p>
+        <p>Mail:</p>
+        <p>Skype:</p>
+        <p>phone:</p>
+        <p>Address:</p>
+        <p>Status:</p>
+        </div>
+        <div class="textright">
+            <h4>21</h4>
+            <h4>aakash3678@gmail.com</h4>
+            <h4>aakash@skype.com</h4>
+            <h4>+918867590423</h4>
+            <h4>Tamilnadu,India</h4>
+            <h4>Available</h4>
+
+        </div></div>
+    </div>
+     <div class="photo">
+        <img src="vijay.jpg" style="height: 250px;
+        width: 400px;
+        float: right;border-radius: 10px;">
+
+     </div>   
+    </div>
+            
+    </body>
